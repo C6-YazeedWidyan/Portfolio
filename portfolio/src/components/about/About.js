@@ -35,7 +35,7 @@ const About = () => {
             and new skills , I love challenges and places where there is
             enthusiasm
           </p>
-          <a href="#Contact" className="btn btn-outline-primary">
+          <a href="#Contact" className="btn btn-outline-danger">
             Let's Talk
           </a>
         </div>
