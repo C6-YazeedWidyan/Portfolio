@@ -37,7 +37,7 @@ body {
   font-family: "Poppins", sans-serif !important;
   background: var(--color-bg) !important;
   color: var(--color-white) !important ;
-  line-height: 1.7 !important;
+  line-height: 1.7;
 }
 
 .container {
@@ -66,7 +66,7 @@ section {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-light) !important;
+  color: var(--color-light);
 }
 
 section > h2 {

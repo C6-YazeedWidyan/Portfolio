@@ -1,23 +1,47 @@
 import React from "react";
 import "./Contact.css";
-import Form from "react-bootstrap/Form";
 import Stack from "react-bootstrap/Stack";
-
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 const Contact = () => {
   return (
     <Stack>
       <section id="Contact">
         <h5>CONTACT US</h5>
-        <Form>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="yazeedwidyany@gmail.com" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Example textarea</Form.Label>
-            <Form.Control as="textarea" rows={3} />
-          </Form.Group>
-        </Form>
+        <Container>
+          <Row>
+            <Col>
+              <a
+                href="https://www.linkedin.com/in/yazeedwidyan/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkdin
+              </a>
+            </Col>
+            <Col>
+              {" "}
+              <a
+                href="https://www.linkedin.com/in/yazeedwidyan/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkdin
+              </a>
+            </Col>
+            <Col>
+              {" "}
+              <a
+                href="https://www.linkedin.com/in/yazeedwidyan/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkdin
+              </a>
+            </Col>
+          </Row>
+        </Container>
       </section>
     </Stack>
   );
