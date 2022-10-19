@@ -1,1 +1,8 @@
+.project_card {
+  background-color: var(--color-bg-variant);
+  margin: 0 auto;
+}
 
+.project_card_btn {
+  color: white !important ;
+}
