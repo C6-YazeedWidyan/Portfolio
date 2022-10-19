@@ -30,14 +30,14 @@ const Navbar = () => {
         className={activeNav === "#Experience" ? "active" : ""}
         href="#Experience"
       >
-        <SiProgress className="navbar_icon" />
+        <GrProjects className="navbar_icon" />
       </a>
       <a
         onClick={() => setActiveNav("#Projects")}
         className={activeNav === "#Projects" ? "active" : ""}
         href="#Projects"
       >
-        <GrProjects className="navbar_icon" />
+        <SiProgress className="navbar_icon" />
       </a>
       <a
         onClick={() => setActiveNav("#Contact")}

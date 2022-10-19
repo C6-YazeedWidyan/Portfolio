@@ -18,7 +18,9 @@ const Projects = () => {
             <Card className="project_card" style={{ width: "18rem" }}>
               <Card.Img variant="top" src={Red} />
               <Card.Body>
-                <Card.Title>E-commerce App</Card.Title>
+                <Card.Title className="project_title">
+                  E-commerce App
+                </Card.Title>
                 <Card.Text className="project_description">
                   Whether you’re a gamer or shop, RED makes it easy to find your
                   next addictive game. With RED webiste, you get access to many

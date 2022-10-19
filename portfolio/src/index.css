@@ -36,7 +36,7 @@ html {
 body {
   font-family: "Poppins", sans-serif !important;
   background: var(--color-bg) !important;
-  color: var(--color-white) !important ;
+  color: var(--color-white);
   line-height: 1.7;
 }
 

@@ -6,3 +6,8 @@
 .project_card_btn {
   color: white !important ;
 }
+
+.project_description,
+.project_title {
+  color: white;
+}
