@@ -16,20 +16,23 @@ nav {
 
 nav a {
   background: transparent;
-  padding: 0.7rem;
+  padding: 0.9rem;
   border-radius: 50%;
   display: flex;
-  color: white;
-  text-decoration: none;
+  color: var(--color-light);
   font-size: 1.1rem;
+}
+
+.navbar_icon {
+  color: var(--color-primary1);
+  background-color: transparent;
 }
 
 nav a:hover {
   background: rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 nav a.active {
-  background: #ff4a57;
-  color: white;
+  background: var(--color-bg);
+  color: var(--color-white);
 }

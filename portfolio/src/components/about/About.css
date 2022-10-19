@@ -7,23 +7,18 @@
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
-  text-align: center;
-  height: 100%;
-  position: relative;
-  margin-top: 50px;
 }
 
 .about_me {
   width: 100%;
+  aspect-ratio: 1/1;
   border-radius: 2rem;
   display: grid;
   place-items: center;
 }
 
 .about_me_img {
-  width: 450px;
-  height: 600px;
-  border-radius: 3rem;
+  border-radius: 2rem;
   overflow: hidden;
 }
 
@@ -34,17 +29,25 @@
 }
 
 .about_card {
-  background: #ff4a57;
+  background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  transition: var(--transition);
 }
 
 .about_card:hover {
   background: transparent;
-  border-color: red;
+  border-color: var(--color-primary-variant);
   cursor: default;
+}
+
+.about_icon {
+  color: var(--color-primary1);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
 }
 
 .about_card h5 {
@@ -52,10 +55,13 @@
 }
 .about_card small {
   font-size: 0.7rem;
+  color: var(--color-light);
+  background-color: transparent;
 }
 
 .about_contact p {
   margin: 2rem 0 2.6rem;
+  color: var(--color-light);
 }
 
 @media screen and (max-width: 1024px) {
@@ -71,13 +77,6 @@
 
   .about_contact p {
     margin: 1rem 0 1.5rem;
-  }
-
-  .about_me_img {
-    width: 100px;
-    height: 200px;
-    border-radius: 3rem;
-    overflow: hidden;
   }
 }
 @media screen and (max-width: 600px) {

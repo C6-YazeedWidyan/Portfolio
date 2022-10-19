@@ -4,16 +4,18 @@ import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
+import Experience from "./components/experience/Experience";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <>
       <Header />
+      <Navbar />
       <About />
+      <Experience />
       <Projects />
       <Contact />
-    </div>
+    </>
   );
 }
 

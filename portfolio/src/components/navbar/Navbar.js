@@ -2,6 +2,10 @@ import React from "react";
 import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { GrProjects } from "react-icons/gr";
+import { BiMessageSquareDetail } from "react-icons/bi";
+import { SiProgress } from "react-icons/si";
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -12,28 +16,35 @@ const Navbar = () => {
         className={activeNav === "#" ? "active" : ""}
         href="#"
       >
-        Home
+        <AiOutlineHome className="navbar_icon" />
       </a>
       <a
         onClick={() => setActiveNav("#About")}
         className={activeNav === "#About" ? "active" : ""}
         href="#About"
       >
-        About
+        <AiOutlineUser className="navbar_icon" />
+      </a>
+      <a
+        onClick={() => setActiveNav("#Experience")}
+        className={activeNav === "#Experience" ? "active" : ""}
+        href="#Experience"
+      >
+        <SiProgress className="navbar_icon" />
       </a>
       <a
         onClick={() => setActiveNav("#Projects")}
         className={activeNav === "#Projects" ? "active" : ""}
         href="#Projects"
       >
-        Projects
+        <GrProjects className="navbar_icon" />
       </a>
       <a
         onClick={() => setActiveNav("#Contact")}
         className={activeNav === "#Contact" ? "active" : ""}
         href="#Contact"
       >
-        Contact
+        <BiMessageSquareDetail className="navbar_icon" />
       </a>
     </nav>
   );
