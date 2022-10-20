@@ -4,40 +4,41 @@ import Stack from "react-bootstrap/Stack";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { BsLinkedin, BsFacebook, BsGithub } from "react-icons/bs";
 const Contact = () => {
   return (
     <Stack>
       <section id="Contact">
         <h5>CONTACT US</h5>
         <Container>
-          <Row>
-            <Col>
+          <Row className="contact_links_contanier">
+            <Col className="contact_links">
               <a
                 href="https://www.linkedin.com/in/yazeedwidyan/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                linkdin
+                <BsLinkedin className="contact_icons" />
               </a>
             </Col>
-            <Col>
+            <Col className="contact_links">
               {" "}
               <a
-                href="https://www.linkedin.com/in/yazeedwidyan/"
+                href="https://www.facebook.com/yazeed.widyan17/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                linkdin
+                <BsFacebook className="contact_icons" />
               </a>
             </Col>
-            <Col>
+            <Col className="contact_links">
               {" "}
               <a
-                href="https://www.linkedin.com/in/yazeedwidyan/"
+                href="https://github.com/YazeedWidyan"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                linkdin
+                <BsGithub className="contact_icons" />
               </a>
             </Col>
           </Row>

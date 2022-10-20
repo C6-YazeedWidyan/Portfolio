@@ -28,7 +28,11 @@ const About = () => {
             <article className="about_card">
               <HiOutlineMail className="about_icon" />
               <h5>Email</h5>
-              <small>yazeedwidyany@gmail.com</small>
+              <small>
+                yazeedwidyany
+                <br />
+                @gmail.com
+              </small>
             </article>
             <article className="about_card">
               <AiFillProject className="about_icon" />
